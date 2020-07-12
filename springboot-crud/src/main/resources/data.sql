@@ -1,0 +1,16 @@
+insert into employee (id, first_name, last_name) values (1, 'agus', 'triantoro');
+insert into employee (id, first_name, last_name) values (2, 'johnny', 'austor');
+insert into employee (id, first_name, last_name) values (3, 'Dadang', 'Konelo');
+insert into employee (id, first_name, last_name) values (4, 'Darto', 'Dermawan');
+insert into employee (id, first_name, last_name) values (5, 'Didin', 'Saepudin');
+insert into employee (id, first_name, last_name) values (6, 'Lingga', 'Abidin');
+insert into employee (id, first_name, last_name) values (7, 'Toni', 'Permana');
+insert into employee (id, first_name, last_name) values (8, 'Gusti', 'Perkasa');
+insert into employee (id, first_name, last_name) values (9, 'Lilis', 'Haryati');
+insert into employee (id, first_name, last_name) values (10, 'Tina', 'Astri');
+insert into employee (id, first_name, last_name) values (11, 'Linda', 'Nurhasanah');
+insert into employee (id, first_name, last_name) values (12, 'Milka', 'Putri');
+insert into employee (id, first_name, last_name) values (13, 'Haryani', 'Dwi');
+insert into employee (id, first_name, last_name) values (14, 'Alayka', 'Dwi Putri');
+insert into employee (id, first_name, last_name) values (15, 'Abdullah', 'Tacar');
+insert into employee (id, first_name, last_name) values (16, 'Tyo', 'Setiawan');
