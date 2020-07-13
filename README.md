@@ -1,27 +1,26 @@
-# CrudAngular
+# Tutorial Spring Boot Rest Api CRUD
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
+Tutorial Spring Boot, Mudahnya Membuat Rest API CRUD!
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Running On DOCKER
+kamu juga bisa menjalankan service ini tanpa install kebutuhan jdk,
+melalui docker. syaratnya sudah ter-install docker di komputer kamu.
 
-## Code scaffolding
+``docker pull johnnyaustor/jap-spring-crud:tutorial-youtube``
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+``docker run --publish 8081:8080 johnnyaustor/jap-spring-crud:tutorial-youtube``
 
-## Build
+## Endpoint
+POST `http://localhost:8081/employee`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+GET `http://localhost:8081/employee`
 
-## Running unit tests
+GET `http://localhost:8081/employee/{id}`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+PUT `http://localhost:8081/employee/{id}`
 
-## Running end-to-end tests
+DELETE `http://localhost:8081/employee/{id}`
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Body Required
+`` { id:number, firstName:string, lastName:string } ``
